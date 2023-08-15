@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "atanyone",
+	"version": "${version}",
+	"name": "@ Anyone",
+	"description": "You can @ a player if he/she is online",
+	"authors": [
+		"SkyDynamic"
+	],
+	"license": "MIT",
+	"icon": "assets/atanyone/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.skydynamic.at.atServer"
+		]
+	},
+	"mixins": [
+		"atanyone.mixins.json"
+	],
+	"depends": {
+		"minecraft": "${minecraft_dependency}"
+	}
+}
